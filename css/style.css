@@ -1,0 +1,46 @@
+h1 {
+  background-color: dodgerblue;
+    text-align: right;
+    color: white;
+    font-size: xxx-large;
+}
+
+h2{
+    color: dodgerblue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "■ ";
+    color: black;
+}
+.contact-list{
+    font-weight: bold;
+    line-height: 1em;
+}
+
+ol{
+    line-height: 1em;
+}
+ol span{
+    font-style: italic;
+}
+
+.work-place li{
+    color: #d05b01;
+    font-weight: bold;
+    line-height: 3em;
+    font-size: 20px;
+}
+
+.work-place span{
+    font-weight: bold;
+    color: blue;
+}
+
+.skills dt{
+    background-color: darkgray;
+}
